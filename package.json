@@ -1,7 +1,7 @@
 {
   "name": "language-zemax",
   "description": "Zemax ZPL Macro language support in Atom",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "engines": {
     "atom": "*"
   },
