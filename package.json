@@ -1,10 +1,13 @@
 {
-  "name": "language-Zemax",
+  "name": "language-zemax",
   "description": "Zemax ZPL Macro language support in Atom",
   "version": "0.0.1",
   "engines": {
     "atom": "*"
   },
-  "repository": "https://github.com/heterophyllus/language-Zemax",
+  "repository": {
+     "type": "git",
+     "https://github.com/heterophyllus/language-zemax.git"
+  },
   "license": "MIT"
 }

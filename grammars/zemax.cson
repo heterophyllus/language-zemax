@@ -1,5 +1,5 @@
 'comment': 'Zemax ZPL Macro language support in Atom'
-'scopeName': 'source.zpl'
+'scopeName': 'source.zemax'
 'name': 'Zemax-ZPL'
 'fileTypes': [
    'ZPL'

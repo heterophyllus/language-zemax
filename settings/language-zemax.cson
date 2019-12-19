@@ -1,4 +1,4 @@
-'.source.codev':
+'.source.zemax':
    'editor':
       'commentStart': '!|# '
       'increaseIndentPattern': '^\\s*\\b(IF|ELSE|FOR|SUB)\\b'
