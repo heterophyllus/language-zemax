@@ -1,5 +1,5 @@
 '.source.zemax':
    'editor':
       'commentStart': '!|# '
-      'increaseIndentPattern': '^\\s*\\b(IF|ELSE|FOR|SUB)\\b'
-      'decreaseIndentPattern': '^\\s*\\b(ENDIF|NEXT|END)\\b'
+      'increaseIndentPattern': '^\\s*(IF|ELSE|FOR|SUB)\\b'
+      'decreaseIndentPattern': '^\\s*(ENDIF|NEXT|END)\\b'
