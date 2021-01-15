@@ -1,7 +1,7 @@
 {
   "name": "language-zemax",
-  "description": "Zemax Optic Studio ZPL macro language support in Atom",
-  "version": "0.1.2",
+  "description": "Zemax OpticStudio ZPL macro language support in Atom",
+  "version": "0.2.0",
   "engines": {
     "atom": "*"
   },

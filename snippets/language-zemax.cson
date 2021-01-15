@@ -1,0 +1,1021 @@
+'.source.zemax':
+	'The absolute value':
+		'prefix': 'ABSO'
+		'body': 'ABSO(${1:x})'
+	'Arccosine in radians':
+		'prefix': 'ACOS'
+		'body': 'ACOS(${1:x})'
+	'The minimum radius value':
+		'prefix': 'APMN'
+		'body': 'APMN(${1:surface})'
+	'The maximum radius value':
+		'prefix': 'APMX'
+		'body': 'APMX(${1:surface})'
+	'Ray intensity apodization factor':
+		'prefix': 'APOI'
+		'body': 'APOI(${1:px}, ${2:py})'
+	'The aperture x-decenter value':
+		'prefix': 'APXD'
+		'body': 'APXD(${1:surface})'
+	'The aperture y-decenter value':
+		'prefix': 'APYD'
+		'body': 'APYD(${1:surface})'
+	'An integer code describing the aperture type on the specified surface.':
+		'prefix': 'APTP'
+		'body': 'APTP(${1:surface})'
+	'Arcsine in radians':
+		'prefix': 'ASIN'
+		'body': 'ASIN(${1:x})'
+	'Aspect ratio of the current graphic device':
+		'prefix': 'ASPR'
+		'body': 'ASPR()'
+	'Arctangent in radians':
+		'prefix': 'ATAN'
+		'body': 'ATAN(${1:x})'
+	'System aperture type code (EPD:0, F/#:1, NA:2, float by stop size:3)':
+		'prefix': 'ATYP'
+		'body': 'ATYP()'
+	'System aperture value':
+		'prefix': 'AVAL'
+		'body': 'AVAL()'
+	'Return value in specified CALLMACRO buffer':
+		'prefix': 'CALD'
+		'body': 'CALD(${1:index})'
+	'Chip Zone of surface':
+		'prefix': 'CHZN'
+		'body': 'CHZN(${1:x})'
+	'Returns the current configuration number':
+		'prefix': 'CONF'
+		'body': 'CONF()'
+	'Conic constant of the surface.':
+		'prefix': 'CONI'
+		'body': 'CONI(${1:surface})'
+	'Cosine':
+		'prefix': 'COSI'
+		'body': 'COSI(${1:x})'
+	'Curvature of the surface':
+		'prefix': 'CURV'
+		'body': 'CURV(${1:surface})'
+	'Edge thickness at the clear semi-diameter or semi-diameter of that surface':
+		'prefix': 'EDGE'
+		'body': 'EDGE(${1:surface})'
+	'End of file flag. Returns 1 if the end of file has been reached, otherwise returns 0.':
+		'prefix': 'EOFF'
+		'body': 'EOFF()'
+	'The elapsed time in seconds since last TIMER.':
+		'prefix': 'ETIM'
+		'body': 'ETIM()'
+	'Exponents: e to the power of x':
+		'prefix': 'EXPE'
+		'body': 'EXPE(${1:x})'
+	'Exponents: 10 to the power of x':
+		'prefix': 'EXPT'
+		'body': 'EXPT(${1:x})'
+	'The fiber coupling efficiency':
+		'prefix': 'FICL'
+		'body': 'FICL(${1:vec})'
+	'X angle or height of specified field':
+		'prefix': 'FLDX'
+		'body': 'FLDX(${1:field})'
+	'Y angle or height of specified field':
+		'prefix': 'FLDY'
+		'body': 'FLDY(${1:field})'
+	'Tangential Angle of specified field':
+		'prefix': 'FTAN'
+		'body': 'FTAN()'
+	'The current field type':
+		'prefix': 'FTYP'
+		'body': 'FTYP()'
+	'Vignetting angle of specified field':
+		'prefix': 'FVAN'
+		'body': 'FVAN(${1:field})'
+	'Vignetting compression (X)':
+		'prefix': 'FVCX'
+		'body': 'FVCX(${1:field})'
+	'Vignetting compression (Y)':
+		'prefix': 'FVCY'
+		'body': 'FVCY(${1:field})'
+	'Vignetting decenter (X)':
+		'prefix': 'FVDX'
+		'body': 'FVDX(${1:field})'
+	'Vignetting decenter (Y)':
+		'prefix': 'FVDY'
+		'body': 'FVDY(${1:field})'
+	'Field weighting of specified field':
+		'prefix': 'FWGT'
+		'body': 'FWGT(${1:field})'
+	'The glass catalog Abbe number of the glass for the specified surface':
+		'prefix': 'GABB'
+		'body': 'GABB(${1:surface})'
+	'Returns a random value with a Gaussian distribution, zero mean, and the specified standard deviation':
+		'prefix': 'GAUS'
+		'body': 'GAUS(${1:stdev})'
+	'Extracts a numerical value from any open text window':
+		'prefix': 'GETT'
+		'body': 'GETT(${1:window},${2:line},${3:column})'
+	'Extracts a numerical value from any open text window. ':
+		'prefix': 'GETL'
+		'body': 'GETL(${1:window},${2:line},${3:column})'
+	'The glass catalog d-light index of the glass for the specified surface':
+		'prefix': 'GIND'
+		'body': 'GIND(${1:surface})'
+	'Global vertex x vector of the specified surface':
+		'prefix': 'GLCA'
+		'body': 'GLCA(${1:surface})'
+	'Global vertex y vector of the specified surface':
+		'prefix': 'GLCB'
+		'body': 'GLCB(${1:surface})'
+	'Global vertex z vector of the specified surface':
+		'prefix': 'GLCC'
+		'body': 'GLCC(${1:surface})'
+	'Global coordinate matrix':
+		'prefix': 'GLCM'
+		'body': 'GLCM(${1:surf},${2:item})'
+	'Global vertex x-coordinate of the specified surface':
+		'prefix': 'GLCX'
+		'body': 'GLCX(${1:surf})'
+	'Global vertex y-coordinate of the specified surface':
+		'prefix': 'GLCY'
+		'body': 'GLCY(${1:surf})'
+	'Global vertex z-coordinate of the specified surface':
+		'prefix': 'GLCZ'
+		'body': 'GLCZ(${1:surf})'
+	'The number of the glass in the glass catalog':
+		'prefix': 'GNUM'
+		'body': 'GNUM(${1:str})'
+	'The glass catalog partial dispersion coefficient of the glass for the specified surface':
+		'prefix': 'GPAR'
+		'body': 'GPAR(${1:surf})'
+	'Returns the index of refraction at the specified x, y, z position on surface s at wavelength number w':
+		'prefix': 'GRIN'
+		'body': 'GRIN(${1:s},${2:w},${3:x},${4:y},${5:z})'
+	'Returns data from the Glass Substitution Template':
+		'prefix': 'GTEM'
+		'body': 'GTEM(${1:code})'
+	'The geometrical image analysis efficiency':
+		'prefix': 'IMAE'
+		'body': 'IMAE(${1:seed})'
+	'Index of refraction at the primary wavelength':
+		'prefix': 'INDX'
+		'body': 'INDX(${1:surf})'
+	'Returns the largest integer not greater than the argument':
+		'prefix': 'INTE'
+		'body': 'INTE(${1:x})'
+	'Is mirror':
+		'prefix': 'ISMS'
+		'body': 'ISMS(${1:surf})'
+	'Log base e of the expression':
+		'prefix': 'LOGE'
+		'body': 'LOGE(${1:x})'
+	'Log base ten of the expression':
+		'prefix': 'LOGT'
+		'body': 'LOGT(${1:x})'
+	'The lost energy following the most recent NSTR trace':
+		'prefix': 'LOST'
+		'body': 'LOST(${1:code})'
+	'String value(L)':
+		'prefix': 'LVAL'
+		'body': 'LVAL(${1:A})'
+	'Computes the square root of x squared plus y squared':
+		'prefix': 'MAGN'
+		'body': 'MAGN(${1:x},${2:y})'
+	'The maximum radial angle in degrees, radial object height in lens units, or radial image height in lens units. ':
+		'prefix': 'MAXF'
+		'body': 'MAXF()'
+	'The number of glasses currently loaded.':
+		'prefix': 'MAXG'
+		'body': 'MAXG()'
+	'Extracts data from any row and configuration of the Multi-Configuration Editor(3 args)':
+		'prefix': 'MCON'
+		'body': 'MCON(${1:row},${2:config},${3:data})'
+	'Extracts data from any row and configuration of the Multi-Configuration Editor(2 args)':
+		'prefix': 'MCOP'
+		'body': 'MCOP(${1:row},${2:config})'
+	'Mechanical Semi-Diameter of surface':
+		'prefix': 'MCSD'
+		'body': 'MCSD(${1:x})'
+	'MFCN updates the lens, validates the merit function, updates the merit function, then returns the current merit function value':
+		'prefix': 'MFCN'
+		'body': 'MFCN()'
+	'Returns the number of configurations':
+		'prefix': 'NCON'
+		'body': 'NCON()'
+	'The number of defined fields':
+		'prefix': 'NFLD'
+		'body': 'NFLD()'
+	'The number of object defined in the specified non-sequential surface':
+		'prefix': 'NOBJ'
+		'body': 'NOBJ(${1:surf})'
+	'Returns a value from the parameter columns of the non-sequential component editor':
+		'prefix': 'NPAR'
+		'body': 'NPAR(${1:surf},${2:object},${3:param})'
+	'Returns a value from the position columns of the non-sequential component editor':
+		'prefix': 'NPOS'
+		'body': 'NPOS(${1:surf},${2:object},${3:code})'
+	'Returns a numeric or string value from the property pages of objects defined in the non-sequential components editor':
+		'prefix': 'NPRO'
+		'body': 'NPRO(${1:surf},${2:object},${3:code},${4:face})'
+	'The coherent intensity data from the specified pixel':
+		'prefix': 'NSDC'
+		'body': 'NSDC(${1:surf},${2:object},${3:pixel},${4:data})'
+	'NSDD':
+		'prefix': 'NSDD'
+		'body': 'NSDD(${1:surf},${2:object},${3:pixel},${4:data})'
+	'NSDE':
+		'prefix': 'NSDE'
+		'body': 'NSDE(${1:surf},${2:object},${3:pixel},${4:angle},${5:data})'
+	'NSDP':
+		'prefix': 'NSDP'
+		'body': 'NSDP(${1:surf},${2:object},${3:pixel},${4:data})'
+	'The number of defined surfaces':
+		'prefix': 'NSUR'
+		'body': 'NSUR()'
+	'The number of defined wavelengths':
+		'prefix': 'NWAV'
+		'body': 'NWAV()'
+	'Object with comment':
+		'prefix': 'OBJC'
+		'body': 'OBJC(${1:str})'
+	'The optimization operand code number used by the OPEV function':
+		'prefix': 'OCOD'
+		'body': 'OCOD(${1:str})'
+	'The id number of the operand':
+		'prefix': 'ONUM'
+		'body': 'ONUM(${1:str})'
+	'The optical path difference':
+		'prefix': 'OPDC'
+		'body': 'OPDC()'
+	'Extracts data from any row and column of the Merit Function Editor':
+		'prefix': 'OPER'
+		'body': 'OPER(${1:row},${2:col})'
+	'Computes the same value as any optimization operand would, without the need to add the operand to the merit function':
+		'prefix': 'OPEV'
+		'body': 'OPEV(${1:code},${2:int1},${3:int2},${4:data1},${5:data2},${6:data3},${7:data4})'
+	'This function is very similar to OPEV, the key difference being that OPEW supports two additional arguments':
+		'prefix': 'OPEW'
+		'body': 'OPEW(${1:code},${2:int1},${3:int2},${4:data1},${5:data2},${6:data3},${7:data4},${8:data5},${9:data6})'
+	'The optical path length along the ray to the specified surface':
+		'prefix': 'OPTH'
+		'body': 'OPTH(${1:surf})'
+	'Parameter n of the surface s':
+		'prefix': 'PARM'
+		'body': 'PARM(${1:n},${2:s})'
+	'The number of X-direction pixels in the graphic':
+		'prefix': 'PIXX'
+		'body': 'PIXX(${1:str})'
+	'The number of Y-direction pixels in the graphic':
+		'prefix': 'PIXY'
+		'body': 'PIXY(${1:str})'
+	'0 if paraxial mode is off, else 1.':
+		'prefix': 'PMOD'
+		'body': 'PMOD()'
+	'Computes the absolute value of x to the power of y':
+		'prefix': 'POWR'
+		'body': 'POWR(${1:x},${2:y})'
+	'Data1 parameter from the ZPLM optimization operand':
+		'prefix': 'PVHX'
+		'body': 'PVHX()'
+	'Data2 parameter from the ZPLM optimization operand':
+		'prefix': 'PVHY'
+		'body': 'PVHY()'
+	'Data3 parameter from the ZPLM optimization operand':
+		'prefix': 'PVPX'
+		'body': 'PVPX()'
+	'Data4 parameter from the ZPLM optimization operand':
+		'prefix': 'PVPY'
+		'body': 'PVPY()'
+	'The primary wavelength number':
+		'prefix': 'PWAV'
+		'body': 'PWAV()'
+	'Radius of curvature of surface':
+		'prefix': 'RADI'
+		'body': 'RADI(${1:surf})'
+	'The global X-direction cosine of the ray following the surface':
+		'prefix': 'RAGL'
+		'body': 'RAGL(${1:x})'
+	'The global Y-direction cosine of the ray following the surface':
+		'prefix': 'RAGM'
+		'body': 'RAGM(${1:x})'
+	'The global Z-direction cosine of the ray following the surface':
+		'prefix': 'RAGN'
+		'body': 'RAGN(${1:x})'
+	'The global x coordinate of the ray intercept.':
+		'prefix': 'RAGX'
+		'body': 'RAGX(${1:surf})'
+	'The global y coordinate of the ray intercept.':
+		'prefix': 'RAGY'
+		'body': 'RAGY(${1:surf})'
+	'The global z coordinate of the ray intercept.':
+		'prefix': 'RAGZ'
+		'body': 'RAGZ(${1:surf})'
+	'Random floating point number uniformly distributed between 0 and the expression':
+		'prefix': 'RAND'
+		'body': 'RAND(${1:x})'
+	'The X-direction cosine of surface normal':
+		'prefix': 'RANX'
+		'body': 'RANX(${1:surf})'
+	'The Y-direction cosine of surface normal':
+		'prefix': 'RANY'
+		'body': 'RANY(${1:surf})'
+	'The Z-direction cosine of surface normal':
+		'prefix': 'RANZ'
+		'body': 'RANZ(${1:surf})'
+	'The ray-trace error flag':
+		'prefix': 'RAYE'
+		'body': 'RAYE()'
+	'The X-direction cosine of the ray following the surface':
+		'prefix': 'RAYL'
+		'body': 'RAYL(${1:surf})'
+	'The Y-direction cosine of the ray following the surface':
+		'prefix': 'RAYM'
+		'body': 'RAYM(${1:surf})'
+	'The Z-direction cosine of the ray following the surface':
+		'prefix': 'RAYN'
+		'body': 'RAYN(${1:surf})'
+	'The ray optical path length from the previous surface to the specified surface':
+		'prefix': 'RAYO'
+		'body': 'RAYO(${1:surf})'
+	'The ray path length from the previous surface to the specified surface':
+		'prefix': 'RAYT'
+		'body': 'RAYT(${1:surf})'
+	'0 if ray was not vignetted, else vignetted surface number':
+		'prefix': 'RAYV'
+		'body': 'RAYV()'
+	'The X-coordinate of the ray intercept':
+		'prefix': 'RAYX'
+		'body': 'RAYX(${1:surf})'
+	'The Y-coordinate of the ray intercept':
+		'prefix': 'RAYY'
+		'body': 'RAYY(${1:surf})'
+	'The Z-coordinate of the ray intercept':
+		'prefix': 'RAYZ'
+		'body': 'RAYZ(${1:surf})'
+	'Relative illumination for the specified field position':
+		'prefix': 'RELI'
+		'body': 'RELI(${1:field})'
+	'Computes the sag in lens units at the specified point on the surface':
+		'prefix': 'SAGG'
+		'body': 'SAGG(${1:x},${2:y},${3:z})'
+	'If the strings are equal, SCOM returns 0':
+		'prefix': 'SCOM'
+		'body': 'SCOM(${1:A},${2:B})'
+	'Clear semi-diameter or Semi-diameter of surface':
+		'prefix': 'SDIA'
+		'body': 'SDIA(${1:surf})'
+	'Returns -1 if the argument is less than zero, 0 if the argument is zero, and +1 if the argument is positive.':
+		'prefix': 'SIGN'
+		'body': 'SIGN(${1:x})'
+	'Sine':
+		'prefix': 'SINE'
+		'body': 'SINE(${1:x})'
+	'Length of the string':
+		'prefix': 'SLEN'
+		'body': 'SLEN(${1:str})'
+	'The return value is data about the solve type and data for the specified multi configuration operand and configuration.':
+		'prefix': 'SOLM'
+		'body': 'SOLM(${1:operand}, ${2:config}, ${3:code})'
+	'The return value is data about the solve type for the specified surface and data.':
+		'prefix': 'SOLV'
+		'body': 'SOLV(${1:surf},${2:code},${3:param})'
+	'Surface or object number of the current macro solve':
+		'prefix': 'SOSO'
+		'body': 'SOSO(${1:code})'
+	'Returns a numeric or string value from the property pages or editors of surfaces defined in the lens data editor':
+		'prefix': 'SPRO'
+		'body': 'SPRO(${1:surf},${2:code})'
+	'This function is similar to SPRO. The key difference is that SPRX supports one additional argument':
+		'prefix': 'SPRX'
+		'body': 'SPRX(${1:surf},${2:code},${3:value2})'
+	'Surface matching comment #n.':
+		'prefix': 'SRCN'
+		'body': 'SRCN(${1:A},${2:n})'
+	'Square root':
+		'prefix': 'SQRT'
+		'body': 'SQRT(${1:x})'
+	'Surface with comment':
+		'prefix': 'SURC'
+		'body': 'SURC(${1:A$})'
+	'String value(S)':
+		'prefix': 'SVAL'
+		'body': 'SVAL(${1:A$})'
+	'Returns a numeric or string value for the corresponding system data':
+		'prefix': 'SYPR'
+		'body': 'SYPR(${1:code})'
+	'Tangent':
+		'prefix': 'TANG'
+		'body': 'TANG(${1:x})'
+	'The total mass in grams of the lens from surface 1 to the image surface':
+		'prefix': 'TMAS'
+		'body': 'TMAS()'
+	'Thickness of the surface':
+		'prefix': 'THIC'
+		'body': 'THIC(${1:surf})'
+	'Returns a numeric or string value from the Tolerance Data Editor':
+		'prefix': 'TOLV'
+		'body': 'TOLV(${1:op},${2:col})'
+	'Returns 0, 1, 2, or 3, if the current unit type is millimeters, centimeters, inches, or meters, respectively':
+		'prefix': 'UNIT'
+		'body': 'UNIT()'
+	'Returns the value of the array variable at the specified subscript (1)':
+		'prefix': 'VEC1'
+		'body': 'VEC1(${1:x})'
+	'Returns the value of the array variable at the specified subscript (2)':
+		'prefix': 'VEC2'
+		'body': 'VEC2(${1:x})'
+	'Returns the value of the array variable at the specified subscript (3)':
+		'prefix': 'VEC3'
+		'body': 'VEC3(${1:x})'
+	'Returns the value of the array variable at the specified subscript (4)':
+		'prefix': 'VEC4'
+		'body': 'VEC4(${1:x})'
+	'Returns the version of the OpticStudio program. The version is of the form yymmdd.':
+		'prefix': 'VERS'
+		'body': 'VERS()'
+	'Wavelength in micrometer':
+		'prefix': 'WAVL'
+		'body': 'WAVL(${1:wav})'
+	'Returns the number of the analysis window most recently opened by the keyword':
+		'prefix': 'WINL'
+		'body': 'WINL()'
+	'Returns the number of open analysis windows.':
+		'prefix': 'WINN'
+		'body': 'WINN()'
+	'Wavelength weighting':
+		'prefix': 'WWGT'
+		'body': 'WWGT(${1:wav})'
+	'Minimum X coordinate of the graphic window':
+		'prefix': 'XMIN'
+		'body': 'XMIN()'
+	'Maximum X coordinate of the graphic window':
+		'prefix': 'XMAX'
+		'body': 'XMAX()'
+	'Minimum Y coordinate of the graphic window':
+		'prefix': 'YMIN'
+		'body': 'YMIN()'
+	'Maximum Y coordinate of the graphic window':
+		'prefix': 'YMAX'
+		'body': 'YMAX()'
+	'Returns the current string in the lens buffer':
+		'prefix': '$BUFFER'
+		'body': '\$BUFFER()'
+	'Returns the string from the CALLMACRO string buffer at index i':
+		'prefix': '$CALLSTR'
+		'body': '\$CALLSTR(${1:i})'
+	'Returns the coating name for the ith surface':
+		'prefix': '$COAT'
+		'body': '\$COAT(${1:i})'
+	'Returns the path name for coating files':
+		'prefix': '$COATINGPATH'
+		'body': '\$COATINGPATH()'
+	'Returns the comment string for the ith surface':
+		'prefix': '$COMMENT'
+		'body': '\$COMMENT(${1:i})'
+	'Returns the path name for data files':
+		'prefix': '$DATAPATH'
+		'body': '\$DATAPATH()'
+	'Returns the current date and time string':
+		'prefix': '$DATE'
+		'body': '\$DATE()'
+	'Returns the path name for OpticStudio extensions':
+		'prefix': '$EXTENSIONPATH'
+		'body': '\$EXTENSIONPATH()'
+	'Returns the current lens file name, without the path':
+		'prefix': '$FILENAME'
+		'body': '\$FILENAME()'
+	'Returns the current lens file name, with the complete path':
+		'prefix': '$FILEPATH'
+		'body': '\$FILEPATH()'
+	'Returns the nth sub-string for the string A$ using spaces for delimiters':
+		'prefix': '$GETSTRING'
+		'body': '\$GETSTRING(${1:str},${2:n})'
+	'Returns the nth sub-string for the string A$ using commas for delimiters':
+		'prefix': '$GETSTRINGC'
+		'body': '\$GETSTRINGC(${1:str},${2:n})'
+	'Returns the glass name of surface number i':
+		'prefix': '$GLASS'
+		'body': '\$GLASS(${1:i})'
+	'Returns the name of the ith loaded glass catalog for the current lens':
+		'prefix': '$GLASSCATALOG'
+		'body': '\$GLASSCATALOG(${1:i})'
+	'Returns the path name for glass catalog files':
+		'prefix': 'GLASSPATH'
+		'body': 'GLASSPATH()'
+	'Returns the left most n characters in the string A':
+		'prefix': '$LEFTSTRING'
+		'body': '\$LEFTSTRING(${1:A},${2:n})'
+	'Returns the lens title defined in the System Explorer':
+		'prefix': '$LENSNAME'
+		'body': '\$LENSNAME()'
+	'Returns the path name for macro files':
+		'prefix': '$MACROPATH'
+		'body': '\$MACROPATH()'
+	'Returns the notes information defined in the System Explorer':
+		'prefix': '$NOTE'
+		'body': '\$NOTE(${1:line})'
+	'Returns the path name for NSC object files':
+		'prefix': '$OBJECTPATH'
+		'body': '\$OBJECTPATH()'
+	'Returns the path name only for the current lens file':
+		'prefix': '$PATHNAME'
+		'body': '\$PATHNAME()'
+	'Returns the path name for program files':
+		'prefix': '$PROGRAMPATH'
+		'body': '\$PROGRAMPATH()'
+	'Returns the double quote character':
+		'prefix': '$QUOTE'
+		'body': '\$QUOTE'
+	'Returns the right most n characters in the string A':
+		'prefix': '$RIGHTSTRING'
+		'body': '\$RIGHTSTRING(${1:A},${2:n})'
+	'Returns a string formatted using the format defined by the FORMAT keyword':
+		'prefix': '$STR'
+		'body': '\$STR(${1:expr})'
+	'Returns the tab character':
+		'prefix': '$TAB'
+		'body': '\$TAB()'
+	'Returns the name of a temporary file, with complete path':
+		'prefix': '$TEMPFILENAME'
+		'body': '\$TEMPFILENAME()'
+	'Returns the comment for the specified tolerance operand':
+		'prefix': '$TOLCOMMENT'
+		'body': '\$TOLCOMMENT(${1:operand})'
+	'Operand name for the tolerance operand':
+		'prefix': '$TOLOPERAND'
+		'body': '\$TOLOPERAND(${1:operand})'
+	'Returns either MM, CM, IN, or M, depending upon the current lens units':
+		'prefix': '$UNITS'
+		'body': '\$UNITS()'
+	'Beeping':
+		'prefix': 'BEEP'
+		'body': 'BEEP'
+	'Displays a window that prompts the user to select or enter a file name and populates a string variable with the chosen file path':
+		'prefix': 'BROWSE'
+		'body': 'BROWSE'
+	'Call another macro':
+		'prefix': 'CALLMACRO'
+		'body': 'CALLMACRO ${1:filename}'
+	'Set double precision floating point number to the buffer':
+		'prefix': 'CALLSETDBL'
+		'body': 'CALLSETDBL ${1:index}, ${2:value}'
+	'Set string to the buffer':
+		'prefix': 'CALLSETSTR'
+		'body': 'CALLSETSTR ${1:index}, ${2:text}'
+	'Close the file':
+		'prefix': 'CLOSE'
+		'body': 'CLOSE'
+	'Suppresses the display of the default output window':
+		'prefix': 'CLOSEWINDOW'
+		'body': 'CLOSEWINDOW ${1:n}'
+	'Set color to the current pen':
+		'prefix': 'COLOR'
+		'body': 'COLOR ${1:n}'
+	'Execute a shell command':
+		'prefix': 'COMMAND'
+		'body': 'COMMAND ${1:exe}, ${2:arg}'
+	'Converts a text file from ANSI to Unicode format or from Unicode to ANSI format':
+		'prefix': 'CONVERTFILEFORMAT'
+		'body': 'CONVERTFILEFORMAT'
+	'Converts monochromatic image files (.BMP, .JPG, .TIFF, .PNG, etc) to .DAT files that can be used with the Grid Phase surface':
+		'prefix': 'CONVERTIMAGETOGRID'
+		'body': 'CONVERTIMAGETOGRID'
+	'Copy file':
+		'prefix': 'COPYFILE'
+		'body': 'COPYFILE ${1:src}, ${2:dst}'
+	'Generate default merit function':
+		'prefix': 'DEFAULTMERIT'
+		'body': 'DEFAULTMERIT ${1:type}, ${2:data}, ${3:reference}, ${4:method}, ${5:rings}, ${6:arms}, ${7:grid}, ${8:delete}, ${9:axial}, ${10:lateral}, ${11:start}, ${12:xweight}, ${13:oweight}'
+	'Delete a surface from the spreadsheet':
+		'prefix': 'DELETE'
+		'body': 'DELETE ${1:n}'
+	'Delete configuration from multi-configuration editor':
+		'prefix': 'DELETECONFIG'
+		'body': 'DELETECONFIG ${1:conf}'
+	'Delete file':
+		'prefix': 'DELETEFILE'
+		'body': 'DELETEFILE ${1:filename}'
+	'Delete an operand in the multi-configuration editor':
+		'prefix': 'DELETEMCO'
+		'body': 'DELETEMCO ${1:row}'
+	'Delete an operand in the merit function editor':
+		'prefix': 'DELETEMFO'
+		'body': 'DELETEMFO'
+	'Delete an NSC object':
+		'prefix': 'DELETEOBJECT'
+		'body': 'DELETEOBJECT ${1:surf}, ${2:obj}'
+	'Delete an operand in the tolerance analysis editor':
+		'prefix': 'DELETETOL'
+		'body': 'DELETETOL ${1:row}'
+	'Export any graphic window as a BMP file':
+		'prefix': 'EXPORTBMP'
+		'body': 'EXPORTBMP ${1:win}, ${2:filename}, ${3:delay}'
+	'Exports lens data as an IGES, STEP, SAT, or STL file for import into CAD programs':
+		'prefix': 'EXPORTCAD'
+		'body': 'EXPORTCAD ${1:filename}'
+	'Export a graphic window to JPG file':
+		'prefix': 'EXPORTJPG'
+		'body': 'EXPORTJPG ${1:win}, ${2:filename}, ${3:delay}'
+	'Export a graphic window to WMF file':
+		'prefix': 'EXPORTWMF'
+		'body': 'EXPORTWMF ${1:win}, ${2:filename}'
+	'Find the names of files':
+		'prefix': 'FINDFILE'
+		'body': 'FINDFILE ${1:temp}, ${2:filter}'
+	'Specifies the numerical precision format for subsequent PRINT and $STR commands':
+		'prefix': 'FORMAT'
+		'body': 'FORMAT'
+	'Insert the date under the lens name':
+		'prefix': 'GDATE'
+		'body': 'GDATE'
+	'Retrieves the extra data values loaded into the lens data editor':
+		'prefix': 'GETEXTRADATA'
+		'body': 'GETEXTRADATA ${1:vec}, ${2:surf}'
+	'Retrieves the data for any glass in the current catalogs':
+		'prefix': 'GETGLASSDATA'
+		'body': 'GETGLASSDATA ${1:vec}, ${2:glass}'
+	'Calculates the geometric edge and line response functions':
+		'prefix': 'GETLSF'
+		'body': 'GETLSF ${1:wave}, ${2:field}, ${3:sampling}, ${4:vector}, ${5:maxradius}, ${6:polarization}'
+	'Calculates tangential and sagittal MTF, real part, imaginary part, phase, or square wave response data for the currently loaded lens file, and places the data in one of the vector arrays':
+		'prefix': 'GETMTF'
+		'body': 'GETMTF ${1:freq}, ${2:wave}, ${3:field}, ${4:sampling}, ${5:vector}, ${6:type}'
+	'Calculate the X and Y direction geometric MTF in the non-sequential mode based on the spot diagram on Detector Rectangular':
+		'prefix': 'GETNSCMTF'
+		'body': 'GETNSCMTF ${1:freq}, ${2:surf}, ${3:object}'
+	'Calculates the diffraction point spread function (PSF) using the FFT algorithm and places the data in one of the vector arrays':
+		'prefix': 'GETPSF'
+		'body': 'GETPSF ${1:wave}, ${2:field}, ${3:sampling}, ${4:vector}, ${5:unnormalized}, ${6:phaseflag}, ${7:imagedelta}'
+	'Retrieves most system specific data, such as effective focal length, working F/#, apodization factors, and other data not associated with any particular surface':
+		'prefix': 'GETSYSTEMDATA'
+		'body': 'GETSYSTEMDATA ${1:vec}'
+	'Creates a text file from any OpticStudio analysis window that supports text':
+		'prefix': 'GETTEXTFILE'
+		'body': 'GETTEXTFILE ${1:textfile}, ${2:type}, ${3:settingsfile}, ${4:flag}'
+	'Retrieves the current number, type, and value of all optimization variables':
+		'prefix': 'GETVARDATA'
+		'body': 'GETVARDATA ${1:vector}'
+	'Calculates Zernike Fringe, Standard, or Annular coefficients for the currently loaded lens file, and places them in one of the vector arrays':
+		'prefix': 'GETZERNIKE'
+		'body': 'GETZERNIKE ${1:maxorder}, ${2:wave}, ${3:field}, ${4:sampling}, ${5:vector}, ${6:zerntype}, ${7:epsilon}, ${8:reference}'
+	'Sets data on the Glass Substitution Template':
+		'prefix': 'GLASSTEMPLATE'
+		'body': 'GLASSTEMPLATE ${1:code}, ${2:data}'
+	'Insert the current lens name on the left top of the textbox':
+		'prefix': 'GLENSNAME'
+		'body': 'GLENSNAME'
+	'Converts coordinate breaks from global to local references.':
+		'prefix': 'GLOBALTOLOCAL'
+		'body': 'GLOBALTOLOCAL ${1:surf1}, ${2:surf2}, ${3:direction}'
+	'Generate new graphic scheme':
+		'prefix': 'GRAPHICS'
+		'body': 'GRAPHICS'
+	'Put user defined text to the graphics':
+		'prefix': 'GTEXT'
+		'body': 'GTEXT ${1:x}, ${2:y}, ${3:angle}, ${4:usertext}'
+	'Align texts to the center':
+		'prefix': 'GTEXTCENT'
+		'body': 'GTEXTCENT ${1:y}, ${2:user_text}'
+	'Graphic title':
+		'prefix': 'GTITLE'
+		'body': 'GTITLE ${1:user_title}'
+	'Invokes the Hammer optimization algorithm to optimize the current lens with the current merit function':
+		'prefix': 'HAMMER'
+		'body': 'HAMMER'
+	'Image analysis':
+		'prefix': 'IMA'
+		'body': 'IMA ${1:outfile}, ${2:infile}'
+	'Combine two images':
+		'prefix': 'IMAGECOMBINE'
+		'body': 'IMAGECOMBINE ${1:src1}, ${2:src2}, ${3:dst}, ${4:mode}'
+	'Extract rectangular region':
+		'prefix': 'IMAGEEXTRACT'
+		'body': 'IMAGEEXTRACT ${1:src}, ${2:dst}, ${3:startx}, ${4:starty}, ${5:width}, ${6:height}'
+	'Display IMA/BIM file on the viewer window':
+		'prefix': 'IMASHOW'
+		'body': 'IMASHOW ${1:file}'
+	'Summarize intensity':
+		'prefix': 'IMASUM'
+		'body': 'IMASUM ${1:filename1}, ${2:filename2}, ${3:outfilename}'
+	'Import to extra data editor':
+		'prefix': 'IMPORTEXTRADATA'
+		'body': 'IMPORTEXTRADATA ${1:surf}, ${2:filename}'
+	'INPUT provides a means for prompting the user for numeric or text data when the macro is run.':
+		'prefix': 'INPUT'
+		'body': 'INPUT'
+	'Insert a surface':
+		'prefix': 'INSERT'
+		'body': 'INSERT ${1:surf}'
+	'Insert configuration to multi-configuration editor':
+		'prefix': 'INSERTCONFIG'
+		'body': 'INSERTCONFIG ${1:config}'
+	'Insert operand to multi-configuration editor':
+		'prefix': 'INSERTMCO'
+		'body': 'INSERTMCO ${1:row}'
+	'Insert operand to merit function editor':
+		'prefix': 'INSERTMFO'
+		'body': 'INSERTMFO ${1:row}'
+	'Insert NSC object':
+		'prefix': 'INSERTOBJECT'
+		'body': 'INSERTOBJECT ${1:surf}, ${2:object}'
+	'Insert operand to tolerance analysis editor':
+		'prefix': 'INSERTTOL'
+		'body': 'INSERTTOL ${1:row}'
+	'The primitive line drawing function for graphical displays.':
+		'prefix': 'LINE'
+		'body': 'LINE ${1:oldx}, ${2:oldy}, ${3:newx}, ${4:newy}'
+	'Opens an existing Zemax archive (*.ZAR) file.':
+		'prefix': 'LOADARCHIVE'
+		'body': 'LOADARCHIVE ${1:filename}, ${2:extractpath}'
+	'Reloads glass and coating catalogs for the currently loaded lens.':
+		'prefix': 'LOADCATALOG'
+		'body': 'LOADCATALOG'
+	'Loads the data saved in a file to an NSC Detector Rectangle, Detector Color, Detector Polar, or Detector Volume object.':
+		'prefix': 'LOADDETECTOR'
+		'body': 'LOADDETECTOR ${1:surf}, ${2:object}, ${3:filename}'
+	'Loads a new lens file, replacing any lens file currently in memory.':
+		'prefix': 'LOADLENS'
+		'body': 'LOADLENS ${1:filename}, ${2:appendflag}, ${3:session}'
+	'Loads a merit function file, replacing the merit function in the current lens.':
+		'prefix': 'LOADMERIT'
+		'body': 'LOADMERIT ${1:file}'
+	'Loads a tolerance file, replacing the tolerances in the current lens.':
+		'prefix': 'LOADTOLERANCE'
+		'body': 'LOADTOLERANCE ${1:file}'
+	'Converts coordinate breaks from local to global references.':
+		'prefix': 'LOCALTOGLOBAL'
+		'body': 'LOCALTOGLOBAL ${1:surf1}, ${2:surf2}, ${3:reference}'
+	'Locks any one or all open windows.':
+		'prefix': 'LOCKWINDOW'
+		'body': 'LOCKWINDOW ${1:winnum}'
+	'Makes an ASCI listing of the vertices of a faceted description of any importable CAD file.':
+		'prefix': 'MAKEFACETLIST'
+		'body': 'MAKEFACETLIST ${1:in}, ${2:out}'
+	'Makes a folder for files.':
+		'prefix': 'MAKEFOLDER'
+		'body': 'MAKEFOLDER ${1:path}'
+	'Modifies data within the settings files used by GETTEXTFILE.':
+		'prefix': 'MODIFYSETTINGS'
+		'body': 'MODIFYSETTINGS ${1:settingfile}, ${2:type}, ${3:value}'
+	'Initiates a Non-sequential LightningTrace.':
+		'prefix': 'NSLT'
+		'body': 'NSLT ${1:surf}, ${2:source}, ${3:ray_sampling}, ${4:edge_sampling}'
+	'Initiates a Non-sequential trace.':
+		'prefix': 'NSTR'
+		'body': 'NSTR ${1:surf}, ${2:source}, ${3:split}, ${4:scatter}, ${5:usepolar}, ${6:ignore_errors}, ${7:random_seed}, ${8:save}, ${9:savefilename}, ${10:filter}'
+	'Opens an existing text file for reading by the READ command.':
+		'prefix': 'OPEN'
+		'body': 'OPEN ${1:file}'
+	'Opens a new analysis window.':
+		'prefix': 'OPENANALYSISWINDOW'
+		'body': 'OPENANALYSISWINDOW ${1:type}, ${2:settingsfilename}'
+	'Invokes the optimization algorithm to optimize the current lens with the current merit function.':
+		'prefix': 'OPTIMIZE'
+		'body': 'OPTIMIZE'
+	'Return value to optimization using ZPLM':
+		'prefix': 'OPTRETURN'
+		'body': 'OPTRETURN ${1:datafield}, ${2:result}'
+	'Specifies destination for text output. Output is either to the screen, or to a file.':
+		'prefix': 'OUTPUT'
+		'body': 'OUTPUT'
+	'Used to control whether ray tracing is done with paraxial or real rays.':
+		'prefix': 'PARAXIAL'
+		'body': 'PARAXIAL ${1|ON,OFF|}'
+	'Pauses macro execution, optionally while displaying a status message.':
+		'prefix': 'PAUSE'
+		'body': 'PAUSE'
+	'Turns on a single pixel on the current graphics screen.':
+		'prefix': 'PIXEL'
+		'body': 'PIXEL ${1:xcoord}, ${2:ycoord}'
+	'The PLOT keyword supports a number of arguments used to simplify the task of creating plots of numeric data.':
+		'prefix': 'PLOT'
+		'body': 'PLOT ${1|NEW,TITLE,TITLEX,TITLEY,BANNER,WINASPECT,COMM1,COMM2,COMM3,COMM4,COMM5,RANGEX,RANGEY,CHECK,TICK,FORMATX,FORMATY,DATA,LINE,LABEL|}'
+	'The PLOT2D keyword supports a number of arguments used to simplify the task of creating plots of numeric data.':
+		'prefix': 'PLOT2D'
+		'body': 'PLOT2D ${1|NEW,TITLE,COMM1,COMM2,COMM3,COMM4,COMM5,RANGE,ASPECT,WINASPECT,DATA,ACTIVECURSOR,DISPLAYTYPE,CONTOURINTERVAL,SURFACESCALE,LOGPLOT,HIDEADDRESS,CONFIG,GO|}'
+	'Defines the input polarization state for subsequent POLTRACE calls.':
+		'prefix': 'POLDEFINE'
+		'body': 'POLDEFINE ${1:Jx}, ${2:Jy}, ${3:PhaX}, ${4:PhaY}'
+	'Calls the OpticStudio polarization ray tracing routines to trace a particular ray through the current system.':
+		'prefix': 'POLTRACE'
+		'body': 'POLTRACE ${1:Hx}, ${2:Hy}, ${3:Px}, ${4:Py}, ${5:wavelength}, ${6:vec}, ${7:surf}'
+	'Physical optics propagation':
+		'prefix': 'POP'
+		'body': 'POP ${1:outfilename}, ${2:lastsurface}'
+	'Output constant text and variable data to either the screen or a file, depending upon the current status of the keyword OUTPUT.':
+		'prefix': 'PRINT'
+		'body': 'PRINT'
+	'Prints a text file.':
+		'prefix': 'PRINTFILE'
+		'body': 'PRINTFILE'
+	'Prints any open graphic or text window.':
+		'prefix': 'PRINTWINDOW'
+		'body': 'PRINTWINDOW ${1:winnum}'
+	'Focus by adjusting space before image plane':
+		'prefix': 'QUICKFOCUS'
+		'body': 'QUICKFOCUS ${1:mode}, ${2:centroid}'
+	'Seeds the random number generator.':
+		'prefix': 'RANDOMIZE'
+		'body': 'RANDOMIZE ${1:seed}'
+	'Runs the ray generator, which is used to create a source ray file from a Radiant Source ModelTM file.':
+		'prefix': 'RAYGENERATOR'
+		'body': 'RAYGENERATOR ${1:rsmxf_ile}, ${2:ray_file}, ${3:num_rays}, ${4:min_azimuth}, ${5:max_azimuth}, ${6:min_inclination}, ${7:max_inclination}, ${8:origination_method}, ${9:origination_radius}, ${10:spectrum_type}, ${11:arg1}, ${12:arg2}, ${13:arg3}'
+	'Calls the OpticStudio ray tracing routines to trace a particular ray through the current system.':
+		'prefix': 'RAYTRACE'
+		'body': 'RAYTRACE ${1:hx}, ${2:hy}, ${3:px}, ${4:py}, ${5:wavelength}'
+	'Calls the OpticStudio ray tracing routines to trace a particular ray from any starting surface through the current system.':
+		'prefix': 'RAYTRACEX'
+		'body': 'RAYTRACEX ${1:x}, ${2:y}, ${3:z}, ${4:l}, ${5:m}, ${6:n}, ${7:surf}, ${8:wavelength}'
+	'Reads data from an existing text file opened for reading by the OPEN command.':
+		'prefix': 'READ'
+		'body': 'READ'
+	'Reads data from an existing text file opened for reading by the OPEN command.(locale)':
+		'prefix': 'READ_LOCALE'
+		'body': 'READ_LOCALE'
+	'Reads data from an existing text file opened for reading by the OPEN command.(next locale)':
+		'prefix': 'READNEXT_LOCALE'
+		'body': 'READNEXT_LOCALE'
+	'Reads data from an existing text file opened for reading by the OPEN command.(next)':
+		'prefix': 'READNEXT'
+		'body': 'READNEXT'
+	'Reads any number of unwanted characters from an existing text file opened for reading by the OPEN command.':
+		'prefix': 'READSKIP'
+		'body': 'READSKIP ${1:n}'
+	'Reads data from an existing text file opened for reading by the OPEN command.(string)':
+		'prefix': 'READSTRING'
+		'body': 'READSTRING ${1:str}'
+	'Release':
+		'prefix': 'RELEASE'
+		'body': 'RELEASE'
+	'Reloads NSC objects into the NSC Editor.':
+		'prefix': 'RELOADOBJECTS'
+		'body': 'RELOADOBJECTS ${1:surface}, ${2:object}'
+	'Sets all currently defined variables to fixed status.':
+		'prefix': 'REMOVEVARIABLES'
+		'body': 'REMOVEVARIABLES'
+	'Prevents any UI editor windows from being updated by ZPL commands while suspended, and RESUMEUPDATES ends the suspension.':
+		'prefix': 'RESUMEUPDATES'
+		'body': 'RESUMEUPDATES'
+	'Rename a file.':
+		'prefix': 'RENAMEFILE'
+		'body': 'RENAMEFILE ${1:oldfilename}, ${2:newfilename}'
+	'Return':
+		'prefix': 'RETURN'
+		'body': 'RETURN'
+	'Erases the last line printed by the PRINT command, up to the previous end of line.':
+		'prefix': 'REWIND'
+		'body': 'REWIND'
+	'Saves the current lens to a Zemax archive (*.ZAR) file.':
+		'prefix': 'SAVEARCHIVE'
+		'body': 'SAVEARCHIVE ${1:filename}'
+	'Saves the data currently on an NSC Detector Rectangle, Detector Color, Detector Polar, or Detector Volume object to a file.':
+		'prefix': 'SAVEDETECTOR'
+		'body': 'SAVEDETECTOR ${1:filename}'
+	'Saves the current lens file.':
+		'prefix': 'SAVELENS'
+		'body': 'SAVELENS ${1:filename}, ${2:session}'
+	'Saves the current merit function to a file.':
+		'prefix': 'SAVEMERIT'
+		'body': 'SAVEMERIT ${1:filename}'
+	'Saves the current tolerances to a file.':
+		'prefix': 'SAVETOLERANCE'
+		'body': 'SAVETOLERANCE ${1:file}'
+	'Saves the text from any text window to a file.':
+		'prefix': 'SAVEWINDOW'
+		'body': 'SAVEWINDOW ${1:winname}, ${2:filename}'
+	'Used to control whether sequential surface scattering is done while tracing rays.':
+		'prefix': 'SCATTER'
+		'body': 'SCATTER ${1|ON,OFF|}'
+	'Set the state of the ray aiming function':
+		'prefix': 'SETAIM'
+		'body': 'SETAIM ${1:state}'
+	'Sets various data for the ray aiming function':
+		'prefix': 'SETAIMDATA'
+		'body': 'SETAIMDATA ${1:code}, ${2:value}'
+	'Sets the current configuration for multi-configuration (zoom) systems.':
+		'prefix': 'SETCONFIG'
+		'body': 'SETCONFIG ${1:config}'
+	'Sets the coherent or incoherent detector data for any pixel on a detector rectangle object.':
+		'prefix': 'SETDETECTOR'
+		'body': 'SETDETECTOR ${1:surf}, ${2:object}, ${3:pixel}, ${4:datatype}, ${5:value}'
+	'Sets any row or configuration of the Multi-Configuration Editor to any numeric value.':
+		'prefix': 'SETMCOPERAND'
+		'body': 'SETMCOPERAND ${1:row}, ${2:config}, ${3:value}, ${4:datatype}'
+	'Sets the parameter values of any object in the NSC editor.':
+		'prefix': 'SETNSCPARAMETER'
+		'body': 'SETNSCPARAMETER ${1:surface}, ${2:object}, ${3:parameter}, ${4:value}'
+	'Sets the x, y, z or tilt x, tilt y, tilt z position of any object in the NSC editor.':
+		'prefix': 'SETNSCPOSITION'
+		'body': 'SETNSCPOSITION ${1:surface}, ${2:object}, ${3:code}, ${4:value}'
+	'Sets properties of NSC objects.':
+		'prefix': 'SETNSCPROPERTY'
+		'body': 'SETNSCPROPERTY ${1:surface}, ${2:object}, ${3:code}, ${4:face}, ${5:value}'
+	'Sets any row or column of the Merit Function Editor to any numeric value.':
+		'prefix': 'SETOPERAND'
+		'body': 'SETOPERAND ${1:row}, ${2:col}, ${3:value}'
+	'Sets properties of surfaces.':
+		'prefix': 'SETSURFACEPROPERTY'
+		'body': 'SETSURFACEPROPERTY ${1:surface}, ${2:code}, ${3:value1}, ${4:value2}'
+	'Sets properties of the system, such as system aperture, field, wavelength, and other data.':
+		'prefix': 'SETSYSTEMPROPERTY'
+		'body': 'SETSYSTEMPROPERTY ${1:code}, ${2:value1}, ${3:value2}'
+	'Changes the size of the characters drawn by the GTEXT command.':
+		'prefix': 'SETTEXTSIZE'
+		'body': 'SETTEXTSIZE ${1:xsize}, ${2:ysize}'
+	'Sets the data in the various columns for any tolerance operand in the tolerance data editor.':
+		'prefix': 'SETTOL'
+		'body': 'SETTOL ${1:row}, ${2:col}, ${3:data}'
+	'Changes the state of variables for optimization.':
+		'prefix': 'SETVAR'
+		'body': 'SETVAR'
+	'Changes the maximum size of the VEC1, VEC2, VEC3, and VEC4 arrays.':
+		'prefix': 'SETVECSIZE'
+		'body': 'SETVECSIZE ${1:n}'
+	'Set the vignetting factors':
+		'prefix': 'SETVIG'
+		'body': 'SETVIG'
+	'Displays a BMP, JPG or PNG file in a viewer window.':
+		'prefix': 'SHOWBITMAP'
+		'body': 'SHOWBITMAP ${1:filename}'
+	'Displays a text file to the screen using the OpticStudio file viewer.':
+		'prefix': 'SHOWFILE'
+		'body': 'SHOWFILE ${1:filename}, ${2:saveflag}'
+	'Enables ZPL solves to be placed on surfaces prior to the stop surface.':
+		'prefix': 'SOLVEBEFORESTOP'
+		'body': 'SOLVEBEFORESTOP'
+	'Returns a computed solve value back to the editor calling the solve.':
+		'prefix': 'SOLVERETURN'
+		'body': 'SOLVERETURN ${1:x}'
+	'Changes the solve status on a given surface and value. ':
+		'prefix': 'SOLVETYPE'
+		'body': 'SOLVETYPE ${1:surf}, ${2:CODE}, ${3:arg1-4}'
+	'Set stop position':
+		'prefix': 'STOPSURF'
+		'body': 'STOPSURF ${1:surf}'
+	'Prevents any UI editor windows from being updated by ZPL commands while suspended.':
+		'prefix': 'SUSPENDUPDATES'
+		'body': 'SUSPENDUPDATES'
+	'Calls the test plate fitting routine.':
+		'prefix': 'TESTPLATEFIT'
+		'body': 'TESTPLATEFIT ${1:tpd_file}, ${2:log_file}, ${3:method}, ${4:number_cycles}'
+	'Resets the internal clock.':
+		'prefix': 'TIMER'
+		'body': 'TIMER'
+	'Runs a tolerance analysis and saves the tolerance report to a text file.':
+		'prefix': 'TOLERANCE'
+		'body': 'TOLERANCE ${1:topfile}, ${2:outfile}'
+	'Unlocks any one or all locked windows.':
+		'prefix': 'UNLOCKWINDOW'
+		'body': 'UNLOCKWINDOW ${1:winnum}'
+	'Updates data required for both sequential and non-sequential ray tracing.':
+		'prefix': 'UPDATE'
+		'body': 'UPDATE'
+	'Computes the Extended Diffraction Image Analysis feature and saves the result to a ZBF file. ':
+		'prefix': 'XDIFFIA'
+		'body': 'XDIFFIA ${1:outfile}, ${2:infile}'
+	'Converts a ZBF file to a Matlab MAT file.':
+		'prefix': 'ZBF2MAT'
+		'body': 'ZBF2MAT ${1:zbffile}, ${2:matfile}, ${3:surfacerange}, ${4:int1}, ${5:int2}'
+	'Clears the complex amplitude data in a ZBF file.':
+		'prefix': 'ZBFCLR'
+		'body': 'ZBFCLR ${1:filename}'
+	'Multiplies the complex amplitude data in a ZBF file by a complex factor.':
+		'prefix': 'ZBFMULT'
+		'body': 'ZBFMULT ${1:filename}, ${2:Ax}, ${3:Bx}, ${4:Ay}, ${5:By}'
+	'Opens the specified ZBF file and places various data about the beam in a vector variable.':
+		'prefix': 'ZBFPROPERTIES'
+		'body': 'ZBFPROPERTIES ${1:filename}, ${2:vector}'
+	'Opens the specified ZBF file and places the electric field and beam property data in two user- defined array variables.':
+		'prefix': 'ZBFREAD'
+		'body': 'ZBFREAD ${1:file}, ${2:beam}, ${3:property}'
+	'Resamples a ZBF file to a new width and point spacing.':
+		'prefix': 'ZBFRESAMPLE'
+		'body': 'ZBFRESAMPLE ${1:filename}, ${2:nx}, ${3:ny}, ${4:wx}, ${5:wy}, ${6:decenterx}, ${7:decentery}'
+	'Displays a ZBF file in a viewer window.':
+		'prefix': 'ZBFSHOW'
+		'body': 'ZBFSHOW ${1:filename}'
+	'Sums either coherently or incoherently the data in two ZBF files and places the resulting data in a third ZBF file.':
+		'prefix': 'ZBFSUM'
+		'body': 'ZBFSUM ${1:coherent}, ${2:filename1}, ${3:filename2}, ${4:outfilename}'
+	'Multiplies the data in a ZBF file by a complex phase factor to introduce phase tilt to the beam.':
+		'prefix': 'ZBFTILT'
+		'body': 'ZBFTILT ${1:filename}, ${2:cx}, ${3:cy}, ${4:tx}, ${5:ty}'
+	'Writes electric field and beam property data arrays to a ZBF file.':
+		'prefix': 'ZBFWRITE'
+		'body': 'ZBFWRITE ${1:file}, ${2:beam}, ${3:property}'
+	'Converts a ZRD file to a Matlab MAT file.':
+		'prefix': 'ZRD2MAT'
+		'body': 'ZRD2MAT ${1:zrdfile}, ${2:matfile}, ${3:savesegment}, ${4:int1}, ${5:int2}'
+	'Appends data from one ZRD file onto the end of a second file. ':
+		'prefix': 'ZRDAPPEND'
+		'body': 'ZRDAPPEND ${1:infile}, ${2:outfile}'
+	'Opens a ZRD ray database file, applies a filter, and saves the filtered subset of rays to a new ZRD file.':
+		'prefix': 'ZRDFILTER'
+		'body': 'ZRDFILTER ${1:infile}, ${2:outfile}, ${3:filter}'
+	'This keyword reads a ZRD file, and adds ray amplitude data to one or all detectors.':
+		'prefix': 'ZRDPLAYBACK'
+		'body': 'ZRDPLAYBACK ${1:zrdfilename}, ${2:surface}, ${3:detector}, ${4:clear}, ${5: filtering}'
+	'Opens a ZRD ray database file, applies a filter, and saves the rays in the filtered subset that intersect a specified object number.':
+		'prefix': 'ZRDSAVERAYS'
+		'body': 'ZRDSAVERAYS ${1:infile}, ${2:outfile}, ${3:filter}, ${4:object}'
+	'Concatenates two ZRD files into a third file.':
+		'prefix': 'ZRDSUM'
+		'body': 'ZRDSUM ${1:infile1}, ${2:infile2}, ${3:outfile}'
